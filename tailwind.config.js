@@ -8,14 +8,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primarybg: "#1F2029",
         primary: "#B5FFE1",
         secondary: "#E4C1F9",
       },
-      animation: { typing: "typing 2s steps(32), blink 0.8s infinite" },
+      animation: { typing: "typing 3s steps(34), blink 0.8s infinite" },
+      backgroundSize: {
+        "size-200": "200% 200%",
+      },
+      backgroundPosition: {
+        "pos-0": "0% 0%",
+        "pos-100": "100% 100%",
+      },
       keyframes: {
         typing: {
           from: { width: "0" },
-          to: { width: "32ch" },
+          to: { width: "34ch" },
         },
         blink: {
           from: { "border-right-color": "transparent" },
@@ -24,5 +32,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@headlessui/tailwindcss")],
 };

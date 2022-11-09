@@ -1,4 +1,4 @@
 import Welcome from "./Welcome";
-import WhoIAm from "./WhoIAm";
+import MyComponent from "./MyComponent";
 
-export { Welcome, WhoIAm };
+export { Welcome, MyComponent };
