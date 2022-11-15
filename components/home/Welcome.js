@@ -5,21 +5,21 @@ export default function Welcome() {
     <section className="pt-[10vh] md:pt-[30vh] pb-[30vh] scroll-m-[100vh]">
       <div className="inline-block md:w-[65%]">
         <div className="text-left ml-4 md:ml-14">
-          <h1 className="text-primary font-bold md:text-[8rem] text-8xl md:-mb-2">
+          <h1 className="text-primary font-bold md:text-[8rem] text-7xl md:-mb-2">
             Hello There!
           </h1>
-          <h1 className="text-secondary font-bold md:text-[6rem] text-6xl">
+          <h1 className="text-secondary font-bold md:text-[6rem] text-5xl">
             I'm Sebastian Mora
           </h1>
         </div>
-        <h1 className="inline-block ml-4 md:ml-14 overflow-hidden text-white whitespace-nowrap font-mono text-lg md:text-xl font-bold animate-typing border-r-4 border-white">
+        <h1 className="inline-block ml-4 md:ml-14 overflow-hidden text-white whitespace-nowrap font-mono text-sm md:text-xl font-bold animate-typing border-r-4 border-white">
           Programmer, Designer and Developer
         </h1>
       </div>
-      <div className="inline-block md:w-[30%] align-top mt-[20vh]">
+      <div className="inline-block w-full md:w-[30%] align-top mt-[5vh] md:mt-[20vh]">
         <Link
           href="/whoiam"
-          className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border w-full my-4 py-2 text-left"
+          className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border mx-auto w-[80%] md:w-full my-4 py-2 text-left"
         >
           <svg
             className="h-8 w-8 text-white inline-block ml-2"
@@ -41,7 +41,7 @@ export default function Welcome() {
           </svg>
           <span className="ml-2">Who I am?</span>
         </Link>
-        <button className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border w-full my-4 py-2 text-left">
+        <button className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border mx-auto w-[80%] md:w-full my-4 py-2 text-left">
           <svg
             className="h-8 w-8 text-white inline-block ml-2"
             width="24"
@@ -60,7 +60,10 @@ export default function Welcome() {
           </svg>
           <span className="ml-2">Portfolio</span>
         </button>
-        <button className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-primarybg from-primarybg bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border w-full my-4 py-2 text-left">
+        <Link
+          href="/contact"
+          className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border mx-auto w-[80%] md:w-full my-4 py-2 text-left"
+        >
           <svg
             className="h-8 w-8 text-white inline-block ml-2"
             fill="none"
@@ -76,7 +79,7 @@ export default function Welcome() {
           </svg>
 
           <span className="ml-2">Contact</span>
-        </button>
+        </Link>
       </div>
     </section>
   );
