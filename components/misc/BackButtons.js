@@ -2,7 +2,7 @@ export default function BackButton(props) {
   return (
     <button
       onClick={props.clickHandler}
-      className="transition ease-in-out hover:bg-[#252631] hover:scale-110 active:bg-secondary p-2 border mx-6 my-4 absolute top-0 left-0"
+      className="transition ease-in-out hover:bg-[#252631] hover:scale-110 active:bg-secondary p-2 border mx-6 my-4"
     >
       <svg
         className="h-8 w-8 text-white"
