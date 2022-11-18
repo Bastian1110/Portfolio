@@ -41,7 +41,10 @@ export default function Welcome() {
           </svg>
           <span className="ml-2">Who I am?</span>
         </Link>
-        <button className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border mx-auto w-[80%] md:w-full my-4 py-2 text-left">
+        <Link
+          href="/portfolio"
+          className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border mx-auto w-[80%] md:w-full my-4 py-2 text-left"
+        >
           <svg
             className="h-8 w-8 text-white inline-block ml-2"
             width="24"
@@ -59,7 +62,7 @@ export default function Welcome() {
             <path d="M17 17v2a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-9a2 2 0 0 1 2 -2h2" />
           </svg>
           <span className="ml-2">Portfolio</span>
-        </button>
+        </Link>
         <Link
           href="/contact"
           className="transition-all duration-300 bg-gradient-to-r to-[#7765e3] via-[#1F2029] from-[#1F2029] bg-size-200 bg-pos-0 hover:bg-pos-100 text-white font-bold block border mx-auto w-[80%] md:w-full my-4 py-2 text-left"
