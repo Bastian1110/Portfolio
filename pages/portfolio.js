@@ -17,7 +17,7 @@ export default function Porfolio() {
     fluid: true,
     sources: [
       {
-        src: "/videos/BeatDancer Short.mp4",
+        src: "/videos/BeatDancer Short.mp4", //TODO : Make the video size smaller
         type: "video/mp4",
       },
     ],
@@ -57,12 +57,60 @@ export default function Porfolio() {
             March 24, 2022
           </span>
         </header>
-        <div className="w-[50%]">
+        <div className="w-[50%] inline-block">
           <VideoPlayer
             options={videoJsOptions}
             onReady={handlePlayerReady}
             className="w-[95%] ml-10"
           />
+        </div>
+        <div className="w-[45%] inline-block align-top pl-8">
+          <h1 className="font-bold text-white text-xl">Technologies Used</h1>
+          <div className="mt-2 w-full">
+            <img
+              src="/images/technologies/React.png"
+              alt="React"
+              className="w-14 inline-block"
+            />
+            <img
+              src="/images/technologies/MySql.png"
+              alt="MySQL"
+              className="w-14 inline-block ml-4"
+            />
+            <img
+              src="/images/technologies/CS.png"
+              alt="C#"
+              className="w-12 inline-block ml-4"
+            />
+            <img
+              src="/images/technologies/Unity.png"
+              alt="C#"
+              className="w-16 inline-block ml-4"
+            />
+          </div>
+          <h1 className="mt-2 font-bold text-white text-xl">Description</h1>
+          <div className="mt-2 w-full">
+            <p className="text-white">
+              In this project, I was in charge of making a videogame for a an
+              organization called PAS (Percussive Art Society) the challenge was
+              to develop the entire project in just one month. As a result, we
+              created an executable for the game, a web page, and a backend.
+            </p>
+          </div>
+          <div className="mt-6">
+            <a
+              href="https://github.com/Bastian1110/BeatDancer-PAS"
+              className="group relative underline duration-300 border-2 rounded-md inline-block hover:bg-slate-800"
+            >
+              <img
+                src="/images/technologies/Github.png"
+                className="w-8 my-2 ml-2 inline-block"
+              />
+              <span className="text-white mx-4">
+                Look on <b>Github</b>
+              </span>
+            </a>
+          </div>
         </div>
       </div>
     </Transition>

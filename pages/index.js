@@ -1,6 +1,6 @@
 import { Welcome } from "../components/home";
 import { Transition } from "@headlessui/react";
-import { useState } from "react";
+import { Head } from "next/document";
 
 export default function Home() {
   return (
