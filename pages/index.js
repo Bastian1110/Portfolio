@@ -1,6 +1,5 @@
 import { Welcome } from "../components/home";
 import { Transition } from "@headlessui/react";
-import { Head } from "next/document";
 
 export default function Home() {
   return (
