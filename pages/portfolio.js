@@ -57,14 +57,14 @@ export default function Porfolio() {
             March 24, 2022
           </span>
         </header>
-        <div className="w-[50%] inline-block">
+        <div className="w-[90%] md:w-[50%] mt-4 md:mt-0 inline-block">
           <VideoPlayer
             options={videoJsOptions}
             onReady={handlePlayerReady}
             className="w-[95%] ml-10"
           />
         </div>
-        <div className="w-[45%] inline-block align-top pl-8">
+        <div className="w-[90%] md:w-[45%] mt-4 md:mt-0 ml-2 md:ml-0 inline-block align-top pl-8">
           <h1 className="font-bold text-white text-xl">Technologies Used</h1>
           <div className="mt-2 w-full">
             <img
