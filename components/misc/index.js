@@ -1,3 +1,4 @@
 import BackButton from "./BackButtons";
+import LookInGit from "./LookInGit";
 
-export { BackButton };
+export { BackButton, LookInGit };

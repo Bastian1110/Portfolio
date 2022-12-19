@@ -20,7 +20,12 @@ export default function Contact() {
       leaveTo="transform translate-x-full"
       afterLeave={() => router.push("/")}
     >
-      <BackButton clickHandler={() => setShowContactPage((prev) => !prev)} />
+      <BackButton
+        clickHandler={() => setShowContactPage((prev) => !prev)}
+        iconColor="text-white"
+        borderColor="border-white"
+        hover="hover:bg-[#252631]"
+      />
       <section className="block w-[50%] mx-auto my-[25vh] text-center">
         <a
           href="https://github.com/Bastian1110"

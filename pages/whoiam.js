@@ -21,7 +21,12 @@ export default function WhoIam() {
       afterLeave={() => router.push("/")}
     >
       <div className="">
-        <BackButton clickHandler={() => setShowSearchPage((prev) => !prev)} />
+        <BackButton
+          clickHandler={() => setShowSearchPage((prev) => !prev)}
+          iconColor="text-white"
+          borderColor="border-white"
+          hover="hover:bg-[#252631]"
+        />
         <h1 className="text-primary font-bold md:text-6xl text-4xl pt-10 pr-8 text-right">
           That's a good question ...
         </h1>
