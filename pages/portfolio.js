@@ -1,8 +1,7 @@
 import { Transition } from "@headlessui/react";
-import { useState } from "react";
+import useScrollSnap from "react-use-scroll-snap";
+import { useState, useRef } from "react";
 import { useRouter } from "next/router";
-
-import { ProjectSlider } from "../components/portfolio";
 
 import { BeatDancer, AlertaAtizapan } from "../components/portfolio";
 
@@ -13,6 +12,9 @@ export default function Porfolio() {
   const goBack = () => {
     setShowPortfolioPage(!showPortfolioPage);
   };
+
+  const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 10 });
 
   return (
     <Transition
@@ -27,10 +29,14 @@ export default function Porfolio() {
       leaveTo="transform translate-x-full"
       afterLeave={() => router.push("/")}
     >
-      <ProjectSlider>
-        <BeatDancer back={goBack} />
-        <AlertaAtizapan back={goBack} />
-      </ProjectSlider>
+      <section ref={scrollRef}>
+        <div>
+          <BeatDancer back={goBack} />
+        </div>
+        <div>
+          <AlertaAtizapan back={goBack} />
+        </div>
+      </section>
     </Transition>
   );
 }
