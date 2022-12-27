@@ -7,7 +7,7 @@ export default function BeatDancer(props) {
   const playerRef = useRef(null);
 
   const videoJsOptions = {
-    autoplay: true,
+    autoplay: false,
     controls: true,
     responsive: true,
     fluid: true,

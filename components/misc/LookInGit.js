@@ -4,7 +4,7 @@ export default function LookInGit(props) {
       href={props.link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`group relative duration-300 border-2 ${props.borderColor} rounded-md ${props.hover} ${props.bg} no-underline table mt-3`}
+      className={`group relative duration-300 border-2 ${props.borderColor} rounded-md ${props.hover} ${props.bg} no-underline table mt-4`}
     >
       <img
         src="/images/technologies/Github.png"
