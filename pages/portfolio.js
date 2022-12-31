@@ -3,7 +3,11 @@ import useScrollSnap from "react-use-scroll-snap";
 import { useState, useRef } from "react";
 import { useRouter } from "next/router";
 
-import { BeatDancer, AlertaAtizapan } from "../components/portfolio";
+import {
+  BeatDancer,
+  AlertaAtizapan,
+  SmartCampus,
+} from "../components/portfolio";
 
 export default function Porfolio() {
   const [showPortfolioPage, setShowPortfolioPage] = useState(true);
@@ -35,6 +39,9 @@ export default function Porfolio() {
         </div>
         <div>
           <AlertaAtizapan back={goBack} />
+        </div>
+        <div>
+          <SmartCampus back={goBack} />
         </div>
       </section>
     </Transition>
