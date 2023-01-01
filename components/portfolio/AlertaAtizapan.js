@@ -26,7 +26,7 @@ export default function AlertaAtizapan(props) {
     <div className="h-[100vh] bg-[#6665DD]">
       <BackButton clickHandler={props.back} iconColor="text-white" />
       <header className="text-right mr-10 float-right md:float-none mt-4 md:mt-0">
-        <h1 className="font-bold text-[#FFFFFA] text-3xl md:text-8xl">
+        <h1 className="font-bold text-[#FFFFFA] text-2xl md:text-8xl word-wraps">
           Alerta Atizapan
         </h1>
         <span className="font-bold text-[#cccbca] text-sm md:text-2xl">
