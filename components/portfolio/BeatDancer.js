@@ -26,9 +26,9 @@ export default function BeatDancer(props) {
     <div className="h-[100vh] bg-[#ADF1D2]">
       <BackButton
         clickHandler={props.back}
-        iconColor="text-[#DE6C83]"
-        borderColor="border-[#DE6C83]"
-        hover="hover:bg-[#9ae9c5]"
+        iconColor="text-[#6B7FD7]"
+        borderColor="border-[#6B7FD7]"
+        hover="hover:bg-[#e5aeb9]"
       />
       <header className="text-right mr-10 float-right md:float-none mt-4 md:mt-0">
         <h1 className="font-bold text-[#6B7FD7] text-3xl md:text-8xl">
