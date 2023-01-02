@@ -17,7 +17,11 @@ export default function SmartCampus(props) {
         </span>
       </header>
       <div className="pr-[10%] md:pr-0 md:pl-12 w-[90%] md:w-[50%] mt-1 md:mt-10 inline-block">
-        <a href="https://campusinteligente.com" target="_blank" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://campusinteligente.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group">
             <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-[#00365a] to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-[#ffffff] flex items-end">
               <div className="p-4 pt-2 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
