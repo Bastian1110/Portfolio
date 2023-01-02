@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 
 import { BackButton } from "../components/misc";
+import { TechSlider } from "../components/whoiam";
 
 export default function WhoIam() {
   const [showSearchPage, setShowSearchPage] = useState(true);
@@ -41,6 +42,14 @@ export default function WhoIam() {
           I am loyal and a good friend, as well as an outgoing and fun person.
         </section>
       </div>
+      <TechSlider>
+        <img src="/images/technologies/CS.png" />
+        <img src="/images/technologies/Docker.png" />
+        <img src="/images/technologies/Firebase.png" />
+        <img src="/images/technologies/AndroidStudio.png" />
+        <img src="/images/technologies/Go.png" />
+        <img src="/images/technologies/MongoDB.png" />
+      </TechSlider>
     </Transition>
   );
 }

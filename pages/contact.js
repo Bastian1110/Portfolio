@@ -26,7 +26,7 @@ export default function Contact() {
         borderColor="border-white"
         hover="hover:bg-[#252631]"
       />
-      <section className="block w-[50%] mx-auto my-[25vh] text-center">
+      <section className="block w-[50%] ml-[30vw] md:mx-auto my-4 md:my-[25vh] text-center">
         <a
           href="https://github.com/Bastian1110"
           className="group relative underline duration-300 hover:border-secondary border-4 border-str rounded-[1.5rem] inline-block p-6 mr-8"
@@ -35,7 +35,7 @@ export default function Contact() {
             Github
           </span>
           <svg
-            class="h-24 w-24 text-white group-hover:text-secondary"
+            class="md:h-24 h-12 w-12 md:w-24 text-white group-hover:text-secondary"
             width="24"
             height="24"
             viewBox="0 0 24 24"
@@ -58,7 +58,7 @@ export default function Contact() {
             LinkedIn
           </span>
           <svg
-            class="h-24 w-24 text-white group-hover:text-blue-400"
+            class="md:h-24 h-12 w-12 md:w-24 text-white group-hover:text-blue-400"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -80,7 +80,7 @@ export default function Contact() {
             Mail: chebimora02@gmail.com
           </span>
           <svg
-            class="h-24 w-24 text-white group-hover:text-sky-300"
+            class="md:h-24 h-12 w-12 md:w-24 text-white group-hover:text-sky-300"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

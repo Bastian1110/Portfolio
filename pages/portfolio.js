@@ -18,7 +18,7 @@ export default function Porfolio() {
   };
 
   const scrollRef = useRef(null);
-  useScrollSnap({ ref: scrollRef, duration: 100, delay: 10 });
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
 
   return (
     <Transition
