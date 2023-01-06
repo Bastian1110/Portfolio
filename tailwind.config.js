@@ -6,6 +6,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      md: "568px",
+      // => @media (min-width: 768px) { ... }
+    },
     extend: {
       colors: {
         primarybg: "#1F2029",

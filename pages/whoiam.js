@@ -21,35 +21,35 @@ export default function WhoIam() {
       leaveTo="transform translate-x-full"
       afterLeave={() => router.push("/")}
     >
+      <BackButton
+        clickHandler={() => setShowSearchPage((prev) => !prev)}
+        iconColor="text-white"
+        borderColor="border-white"
+        hover="hover:bg-[#252631]"
+      />
+
       <div className="">
-        <BackButton
-          clickHandler={() => setShowSearchPage((prev) => !prev)}
-          iconColor="text-white"
-          borderColor="border-white"
-          hover="hover:bg-[#252631]"
-        />
-        <h1 className="text-primary font-bold md:text-6xl text-4xl pt-10 pr-8 text-right">
-          That's a good question ...
-        </h1>
-        <section className="text-white text-xl font-bold justify-evenly w-[50%] mt-8">
-          I am a person who quite enjoys fixing any type of problem, from
-          mechanics to electronics, I am really fascinated by learning how
-          things work. I would call myself a "romantic" person who believes in
-          doing things the right way, without the need to be motivated by
-          material things, but rather doing things for the love of art. Another
-          of my great loves, in addition to engineering, is basketball, which I
-          practice with my friends on a recurring basis and with great passion.
-          I am loyal and a good friend, as well as an outgoing and fun person.
-        </section>
+        <div className="max-w-7xl mx-auto grid grid-cols-12 h-[65vh]">
+          <div className="col-span-4">
+            <div className="border "></div>
+          </div>
+          <div className="col-span-4">2</div>
+          <div className="col-span-4">
+            <h1 className="font-bold text-secondary text-6xl">
+              Thats a good question ...
+            </h1>
+            <p className="text-white text-2xl py-4 mt-4 mr-4 mb-4">
+              I am a very passionate person about computing and engineering in
+              general, I love solving problems as elegantly as possible. I like
+              to spend my free time building things, listening to music or
+              playing basketball.
+            </p>
+          </div>
+        </div>
+        <div>
+          <TechSlider />
+        </div>
       </div>
-      <TechSlider>
-        <img src="/images/technologies/CS.png" />
-        <img src="/images/technologies/Docker.png" />
-        <img src="/images/technologies/Firebase.png" />
-        <img src="/images/technologies/AndroidStudio.png" />
-        <img src="/images/technologies/Go.png" />
-        <img src="/images/technologies/MongoDB.png" />
-      </TechSlider>
     </Transition>
   );
 }

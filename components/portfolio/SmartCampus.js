@@ -16,7 +16,7 @@ export default function SmartCampus(props) {
           August 1, 2022
         </span>
       </header>
-      <div className="pr-[10%] md:pr-0 md:pl-12 w-[90%] md:w-[50%] mt-1 md:mt-10 inline-block">
+      <div className="ml-[10vw] md:ml-0 pr-[10%] md:pr-0 md:pl-12 w-[90%] md:w-[50%] mt-1 md:mt-10 inline-block">
         <a
           href="https://campusinteligente.com"
           target="_blank"
