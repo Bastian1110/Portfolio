@@ -13,7 +13,7 @@ export default function Welcome() {
           </h1>
         </div>
         <h1 className="inline-block ml-4 md:ml-14 overflow-hidden text-white whitespace-nowrap font-mono text-sm md:text-xl font-bold animate-typing border-r-4 border-white">
-          Programmer, Designer and Developer
+          Designer, Developer and Programmer
         </h1>
       </div>
       <div className="inline-block w-full md:w-[30%] align-top mt-[5vh] md:mt-[20vh]">

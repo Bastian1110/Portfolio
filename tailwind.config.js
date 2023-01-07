@@ -6,6 +6,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      aestethic: ["Georgia"],
+      programming: ["Consolas"],
+    },
     screens: {
       md: "568px",
       // => @media (min-width: 768px) { ... }

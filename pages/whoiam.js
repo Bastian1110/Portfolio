@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 
 import { BackButton } from "../components/misc";
-import { TechSlider } from "../components/whoiam";
+import { TechSlider, InstagramPost } from "../components/whoiam";
 
 export default function WhoIam() {
   const [showSearchPage, setShowSearchPage] = useState(true);
@@ -28,21 +28,24 @@ export default function WhoIam() {
         hover="hover:bg-[#252631]"
       />
 
-      <div className="">
+      <div className="mt-2">
         <div className="max-w-7xl mx-auto grid grid-cols-12 h-[65vh]">
           <div className="col-span-4">
-            <div className="border "></div>
+            <div className="border h-[90%] w-[80%] mx-auto"></div>
           </div>
-          <div className="col-span-4">2</div>
+          <div className="col-span-4">
+            <InstagramPost />
+          </div>
           <div className="col-span-4">
             <h1 className="font-bold text-secondary text-6xl">
               Thats a good question ...
             </h1>
-            <p className="text-white text-2xl py-4 mt-4 mr-4 mb-4">
+            <p className="text-white text-2xl py-4 mt-0 mr-10 mb-4">
               I am a very passionate person about computing and engineering in
-              general, I love solving problems as elegantly as possible. I like
-              to spend my free time building things, listening to music or
-              playing basketball.
+              general, I love solving problems as{" "}
+              <i className="font-aestethic">elegantly</i> as possible. I like to
+              spend my free time building things, listening to music or playing
+              basketball.
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
     autoplay: true,
     speed: 5000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 10,
     cssEase: "linear",
     vertical: false,
     responsive: [
@@ -41,6 +41,18 @@ export default function SimpleSlider() {
   };
   return (
     <Slider {...settings} className="mx-6 w-full">
+      <img src="/images/langs/svelte.png" alt="MongoDB" className="p-12" />
+      <img src="/images/langs/tailwind.png" alt="MongoDB" className="p-10" />
+      <img src="/images/langs/react.png" alt="MongoDB" className="p-12" />
+      <img src="/images/langs/go.png" alt="MongoDB" className="p-14" />
+      <img src="/images/langs/python.png" alt="MongoDB" className="p-14" />
+      <img
+        src="/images/langs/digital-ocean.png"
+        alt="MongoDB"
+        className="p-14"
+      />
+      <img src="/images/langs/mongodb.png" alt="MongoDB" className="p-12" />
+      <img src="/images/langs/firebase.png" alt="MongoDB" className="p-14" />
       <img
         src="/images/langs/amazonwebservices.png"
         alt="MongoDB"
