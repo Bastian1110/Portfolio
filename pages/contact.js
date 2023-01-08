@@ -29,6 +29,8 @@ export default function Contact() {
       <section className="block w-[50%] ml-[30vw] md:mx-auto my-4 md:my-[25vh] text-center">
         <a
           href="https://github.com/Bastian1110"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative underline duration-300 hover:border-secondary border-4 border-str rounded-[1.5rem] inline-block p-6 mr-8"
         >
           <span class="transition-all duration-500 absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white font-bold text-lg after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
@@ -52,6 +54,8 @@ export default function Contact() {
         </a>
         <a
           href="https://www.linkedin.com/in/sebastián-mora-ugalde-3693021b3"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative underline duration-300 hover:border-blue-400 border-4 border-str rounded-[1.5rem] inline-block p-6 mr-8"
         >
           <span class="transition-all duration-500 absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white font-bold text-lg after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">
@@ -74,6 +78,8 @@ export default function Contact() {
         </a>
         <a
           href="mailto: chebimora02@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative underline duration-300 hover:border-sky-300 border-4 border-str rounded-[1.5rem] inline-block p-6 mr-8 mt-2"
         >
           <span class="transition-all duration-500 absolute hidden group-hover:flex -left-5 -top-2 -translate-y-full w-48 px-2 py-1 bg-gray-700 rounded-lg text-center text-white font-bold text-sm after:content-[''] after:absolute after:left-1/2 after:top-[100%] after:-translate-x-1/2 after:border-8 after:border-x-transparent after:border-b-transparent after:border-t-gray-700">

@@ -2,7 +2,7 @@ import { Transition } from "@headlessui/react";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-import { BackButton } from "../components/misc";
+import { BackButton, TechIcon } from "../components/misc";
 import { TechSlider, InstagramPost } from "../components/whoiam";
 
 export default function WhoIam() {
@@ -29,24 +29,32 @@ export default function WhoIam() {
       />
 
       <div className="mt-2">
-        <div className="max-w-7xl mx-auto grid grid-cols-12 h-[65vh]">
-          <div className="col-span-4">
-            <div className="border h-[90%] w-[80%] mx-auto"></div>
+        <div className="max-w-8xl mx-auto grid grid-cols-12">
+          <div className="col-span-12 md:col-span-4 h-[70vh]">
+            <div className="border h-[90%] w-[80%] mx-auto">
+              <TechIcon
+                src="/images/langs/android.png"
+                padding="p-16"
+                name="Android"
+              />
+            </div>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 md:col-span-4 h-[70vh]">
             <InstagramPost />
           </div>
-          <div className="col-span-4">
-            <h1 className="font-bold text-secondary text-6xl">
-              Thats a good question ...
-            </h1>
-            <p className="text-white text-2xl py-4 mt-0 mr-10 mb-4">
-              I am a very passionate person about computing and engineering in
-              general, I love solving problems as{" "}
-              <i className="font-aestethic">elegantly</i> as possible. I like to
-              spend my free time building things, listening to music or playing
-              basketball.
-            </p>
+          <div className="col-span-12 md:col-span-4 h-[70vh]">
+            <div className="h-[90%] w-[90%] mx-auto mt-8 md:mt-0 overflow-y-scroll">
+              <h1 className="font-bold text-secondary text-4xl md:text-6xl">
+                Thats a good question ...
+              </h1>
+              <p className="text-white text-xl md:text-2xl py-4 mt-0 md:mr-10 mb-4">
+                I am a very passionate person about computing and engineering in
+                general, I love solving problems as{" "}
+                <i className="font-aestethic">elegantly</i> as possible. I like
+                to spend my free time building things, listening to music or
+                playing basketball.
+              </p>
+            </div>
           </div>
         </div>
         <div>
