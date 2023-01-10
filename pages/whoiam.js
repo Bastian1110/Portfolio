@@ -30,23 +30,29 @@ export default function WhoIam() {
 
       <div className="mt-2 items-center">
         <div className="max-w-8xl mx-auto grid grid-cols-12">
-          <div className="col-span-10 md:col-span-4 h-[70vh]">
-            <div className="h-[90%] w-[80%] mx-auto block">
-              <MagicBall />
-              <span className="text-[#b1b0b0] font-bold text-xl md:text-3xl mt-2">
-                Click for a random fact about me!
-              </span>
-            </div>
+          <div className="col-span-12 md:col-span-4 h-[70vh] m-6">
+            <iframe
+              style={{ borderRadius: "12px" }}
+              src="https://open.spotify.com/embed/playlist/3zTZbfEQJ6DtUplssPQaV3?utm_source=generator"
+              width="100%"
+              height="380"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <p className="text-[#c2c2c2] font-bold mt-4 text-xl">
+              My favourite playlist for coding 👻
+            </p>
           </div>
           <div className="col-span-12 md:col-span-4 h-[70vh] mt-[0%] md:mt-0">
             <InstagramPost />
           </div>
-          <div className="col-span-12 md:col-span-4 h-[70vh]">
-            <div className="h-[90%] w-[90%] mx-auto mt-8 md:mt-0 overflow-y-scroll">
+          <div className="col-span-12 md:col-span-4 h-[70vh] m-6">
+            <div className="h-[90%] w-[90%] mx-auto mt-2 md:mt-0 overflow-y-scroll">
               <h1 className="font-bold text-secondary text-4xl md:text-6xl">
                 Thats a good question ...
               </h1>
-              <p className="text-white text-xl md:text-2xl py-4 mt-0 md:mr-10 mb-4">
+              <p className="text-white text-xl md:text-2xl pt-4 mt-0 md:mr-10 mb-4">
                 I am a very passionate person about computing and engineering in
                 general, I love solving problems as{" "}
                 <i className="font-aestethic">elegantly</i> as possible. I like
@@ -56,7 +62,7 @@ export default function WhoIam() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="-mt-[38%] md:mt-0">
           <TechSlider />
         </div>
       </div>

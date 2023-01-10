@@ -1,6 +1,11 @@
 export default function TechIcon(props) {
   return (
-    <a href={props.link} target="_blank" rel="noopener noreferrer">
+    <a
+      href={props.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      key={props.key}
+    >
       <div className="overflow-hidden aspect-square cursor-pointer relative group">
         <div className="w-[100%] h-[100%]  z-50 opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out cursor-pointer absolute bg-[#303340] flex items-end">
           <span className="text-white font-bold text-[200%] mx-auto align-middle text-center mb-[38%] group-hover:opacity-100 z-1">

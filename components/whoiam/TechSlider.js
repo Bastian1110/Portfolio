@@ -169,9 +169,10 @@ export default function SimpleSlider() {
     ],
   };
   return (
-    <Slider {...settings} className="mx-6 w-full">
+    <Slider {...settings} className="mx-6 w-full -mt-2">
       {techs.map((tech) => (
         <TechIcon
+          key={tech.name}
           src={tech.src}
           padding={tech.padding}
           name={tech.name}
