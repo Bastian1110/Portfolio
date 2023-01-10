@@ -9,7 +9,7 @@ export default function Welcome() {
             Hello There!
           </h1>
           <h1 className="text-secondary font-bold md:text-[6rem] text-5xl">
-            I'm Sebastian Mora
+            I'm Sebastian Mora 🫐
           </h1>
         </div>
         <h1 className="inline-block ml-4 md:ml-14 overflow-hidden text-white whitespace-nowrap font-mono text-sm md:text-xl font-bold animate-typing border-r-4 border-white">

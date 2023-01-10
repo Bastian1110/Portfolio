@@ -35,13 +35,13 @@ export default function Porfolio() {
     >
       <section ref={scrollRef}>
         <div>
-          <BeatDancer back={goBack} />
-        </div>
-        <div>
           <AlertaAtizapan back={goBack} />
         </div>
         <div>
           <SmartCampus back={goBack} />
+        </div>
+        <div>
+          <BeatDancer back={goBack} />
         </div>
       </section>
     </Transition>

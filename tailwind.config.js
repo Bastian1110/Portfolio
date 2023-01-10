@@ -20,7 +20,10 @@ module.exports = {
         primary: "#B5FFE1",
         secondary: "#E4C1F9",
       },
-      animation: { typing: "typing 3s steps(34), blink 0.8s infinite" },
+      animation: {
+        typing: "typing 3s steps(34), blink 0.8s infinite",
+        appear: "appear 10s infinite",
+      },
       backgroundSize: {
         "size-200": "200% 200%",
       },
@@ -36,6 +39,10 @@ module.exports = {
         blink: {
           from: { "border-right-color": "transparent" },
           to: { "border-right-color": "white" },
+        },
+        appear: {
+          from: "opacity-0",
+          to: "opacity-100",
         },
       },
     },

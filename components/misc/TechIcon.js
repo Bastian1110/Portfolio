@@ -1,18 +1,18 @@
 export default function TechIcon(props) {
   return (
-    <a
-      href={props.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group relative duration-300"
-    >
-      <span class="transition-all duration-500 absolute hidden group-hover:flex left-[20%] -top-2 -translate-y-full w-48 px-2 py-1 bg-[#2a2b38] rounded-lg text-center text-white font-bold text-lg mx-auto">
-        {props.name}
-      </span>
-      <img
-        src={props.src}
-        className={`${props.padding} hover:bg-slate-500 hover:rounded-xl`}
-      />
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
+      <div className="overflow-hidden aspect-square cursor-pointer relative group">
+        <div className="w-[100%] h-[100%]  z-50 opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out cursor-pointer absolute bg-[#303340] flex items-end">
+          <span className="text-white font-bold text-[200%] mx-auto align-middle text-center mb-[38%] group-hover:opacity-100 z-1">
+            {props.name}
+          </span>
+        </div>
+        <img
+          alt={props.name}
+          className={`aspect-square group-hover:scale-90 transition duration-300 ease-in-out mx-auto mt-[0%] ${props.padding}`}
+          src={props.src}
+        />
+      </div>
     </a>
   );
 }
