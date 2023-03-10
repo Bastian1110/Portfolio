@@ -34,7 +34,7 @@ module.exports = {
       keyframes: {
         typing: {
           from: { width: "0" },
-          to: { width: "34ch" },
+          to: { width: "28ch" },
         },
         blink: {
           from: { "border-right-color": "transparent" },

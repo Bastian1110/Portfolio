@@ -7,6 +7,7 @@ import {
   BeatDancer,
   AlertaAtizapan,
   SmartCampus,
+  Words2Emotions,
 } from "../components/portfolio";
 
 export default function Porfolio() {
@@ -38,6 +39,9 @@ export default function Porfolio() {
           <AlertaAtizapan back={goBack} />
         </div>
         <div>
+          <div>
+            <Words2Emotions back={goBack} />
+          </div>
           <SmartCampus back={goBack} />
         </div>
         <div>

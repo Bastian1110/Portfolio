@@ -45,6 +45,18 @@ export default function SimpleSlider() {
       link: "https://pyhton.org",
     },
     {
+      src: "/images/langs/rust.png",
+      padding: "p-8",
+      name: "Rust",
+      link: "https://www.rust-lang.org",
+    },
+    {
+      src: "/images/langs/wasm.png",
+      padding: "p-8",
+      name: "WASM",
+      link: "https://webassembly.org",
+    },
+    {
       src: "/images/langs/digital-ocean.png",
       padding: "p-9",
       name: "Digital Ocean",
